@@ -55,31 +55,49 @@
     background-color: #fff;
     color: #475034;
     border-color: #475034;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn.b-0:hover {
     background-color: #c6e238;
     color: #475034;
     border-color: #99a751;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn.b-1 {
     background-color: #c6e238;
     color: #475034;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .btn.b-1:hover {
     background-color: #ffe196aa;
     color: #475034;
     border-color: #99a751;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn.b-2 {
     background-color: #c6e238;
     color: #d2791d;
     box-shadow: #212707;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn.b-2:hover {
     background-color: #99a751;
     color: #fff;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
