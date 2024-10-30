@@ -1,0 +1,85 @@
+/*FUENTES*/
+.f-links {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.f-textos {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.f-secun {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.f-titulos {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* NAVBAR */
+@media (max-width: 991px) {
+    .input-group {
+        width: 400px; /* Ancho pantalla reducida */
+    }
+}
+
+.nav-item {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#475034
+}
+
+.nav-item:hover {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*OPC.MENÚ*/
+.custom-dropdown {
+    border-radius: 0 !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: none !important;
+}
+
+/*BOTONES*/
+.btn.b-0 {
+    background-color: #fff;
+    color: #475034;
+    border-color: #475034;
+}
+
+.btn.b-0:hover {
+    background-color: #c6e238;
+    color: #475034;
+    border-color: #99a751;
+}
+
+.btn.b-1 {
+    background-color: #c6e238;
+    color: #475034;
+}
+.btn.b-1:hover {
+    background-color: #ffe196aa;
+    color: #475034;
+    border-color: #99a751;
+}
+
+.btn.b-2 {
+    background-color: #c6e238;
+    color: #d2791d;
+    box-shadow: #212707;
+}
+
+.btn.b-2:hover {
+    background-color: #99a751;
+    color: #fff;
+}

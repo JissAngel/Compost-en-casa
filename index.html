@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compost en casa</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Assets/Css/index.css">
+
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <div class="container" style="background-color: #c6e23877;">
+            <div class="row">
+                <p class="text-center justify-content-center d-sm-none text-decoration-none f-titulos pt-4 fs-3"
+                    style="color: #475034;" href="#">- Compost en casa -</p>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg" style="background-color: #c6e23877;">
+            <div class="container-fluid my-2">
+                <!-- Contenedor general con distribución en columnas -->
+                <div class="row w-100 align-items-center">
+
+                    <!-- Columna del menú hamburguesa y opciones -->
+                    <div class="col-4 d-flex align-items-center ps-4">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted mx-2" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted mx-2" href="#">Actividades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted mx-2" href="#">Tutoriales</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted mx-2" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Columna del logotipo centrado, visible solo en pantallas grandes -->
+                    <div class="col-4 text-center">
+                        <a class="navbar-brand f-titulos" style="color: #475034;" href="#">- Compost en casa -</a>
+                    </div>
+
+                    <!-- Columna del buscador e ícono de usuario alineados a la derecha -->
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <form class="d-flex align-items-center">
+                            <div class="input-group" style="width: 300px;">
+                                <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+                                <span class="input-group-text">
+                                    <a class="fa-solid fa-magnifying-glass text-decoration-none" href="#"
+                                        style="color: #475034;"></a>
+                                </span>
+                            </div>
+                            <!-- Icono de usuario -->
+                            <span class="ms-3 align-self-center">
+                                <a class="fa-solid fa-user fa-lg" href="#" style="color: #475034;"></a>
+                            </span>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Assets/Imgs/ban-4.png" class="d-block w-100" alt="..."
+                    style="height: 500px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/Imgs/niños-actividad.jpg" class="d-block w-100" alt="..."
+                    style="height: 500px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/Imgs/ban-3.jpg" class="d-block w-100" alt="..."
+                    style="height: 500px; object-fit: cover;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- INFO -->
+    <div class="container" id="info">
+        <div class="row my-5 f-textos" style="color: #475034">
+            <!-- Título y descripción -->
+            <div class="col-10 col-md-9 mx-auto">
+                <h2 class="py-3 f-titulos">¿Por qué compostar?</h2>
+                <p>El compostaje es una forma fantástica de reducir tu huella de carbono y nutrir tu jardín. Por esto,
+                    aquí te enseñaremos cómo preparar compost de manera eficiente y efectiva.</p>
+            </div>
+
+            <!-- Pantalla completa -->
+            <div class="col-10 col-md-9 mx-auto d-none d-lg-block d-md-block">
+                <div class="row justify-content-between g-4">
+
+                    <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center text-center"
+                            style="width: 100%; max-width: 300px; aspect-ratio: 1; border-radius: 7%; background-color: #eed18989;">
+                            <p class="m-0 f-secun p-3">Contribuye al incremento de materia orgánica de los suelos
+                                agrícolas</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center text-center"
+                            style="width: 100%; max-width: 300px; aspect-ratio: 1; border-radius: 7%; background-color: #c6e238;">
+                            <p class="m-0 f-secun p-3">Disminuye la emisión de los gases del efecto invernadero</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center text-center"
+                            style="width: 100%; max-width: 300px; aspect-ratio: 1; border-radius: 7%; background-color: #c6e23877;">
+                            <p class="m-0 f-secun p-3">Se cierra el ciclo de la materia orgánica</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla reducida -->
+            <div class="col-10 col-md-9 mx-auto d-sm-none">
+                <div id="carouselInfo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-between g-4">
+                                <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center text-center"
+                                        style="width: 100%; max-width: 300px; aspect-ratio: 1; border-radius: 5%; background-color: #ffe196aa;;">
+                                        <p class="m-0 f-secun p-3">Contribuye al incremento de materia orgánica de los
+                                            suelos agrícolas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-between g-4">
+                                <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center text-center"
+                                        style="width: 100%; max-width: 300px; aspect-ratio: 1; border-radius: 5%; background-color: #c6e238;">
+                                        <p class="m-0 f-secun p-3">Disminuye la emisión de los gases del efecto
+                                            invernadero</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-between g-4">
+                                <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center text-center"
+                                        style="width: 100%; max-width: 300px; aspect-ratio: 1; border-radius: 5%; background-color: #c6e23877;">
+                                        <p class="m-0 f-secun p-3">Se cierra el ciclo de la materia orgánica</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfo"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselInfo"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERRAMIENTAS -->
+    <div class="container" id="info">
+            <div class="row my-5 f-textos" style="color: #475034">
+                <div class="class">
+
+                <div class="col-md-11 mb-3 mt-3" style="margin-left: 8%;">
+                    <h2 class="f-titulos">Herramientas necesarias</h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div id="carouselExample" class="carousel slide g-2" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <!-- Grupo 1: dos imágenes -->
+                                <div class="carousel-item active">
+                                    <div class="row justify-content-center justify-items-center">
+                                        <div class="col-5 col-md-5 text-center position-relative">
+                                            <img src="Assets/Imgs/compostera.jpg" class="d-block w-100 rounded-4"
+                                                style="height: 300px; object-fit: cover;" alt="Imagen 1">
+                                            <a href="#" class="btn btn-light position-absolute" data-bs-toggle="modal"
+                                                data-bs-target="#infoModal1"
+                                                style="bottom: 30px; right: 40px; border-radius: 50%;">
+                                                <i class="bi bi-info-lg"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-5 col-md-5 text-center position-relative">
+                                            <img src="Assets/Imgs/tierra.webp" class="d-block w-100 rounded-4"
+                                                style="height: 300px; object-fit: cover;" alt="Imagen 2">
+                                            <a href="#" class="btn btn-light position-absolute" data-bs-toggle="modal"
+                                                data-bs-target="#infoModal2"
+                                                style="bottom: 30px; right: 40px; border-radius: 50%;">
+                                                <i class="bi bi-info-lg"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Grupo 2: dos imágenes -->
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-5 col-md-5 text-center position-relative">
+                                            <img src="Assets/Imgs/herr-jardin.webp" class="d-block w-100 rounded-4"
+                                                style="height: 300px; object-fit: cover;" alt="Imagen 3">
+                                            <a href="#" class="btn btn-light position-absolute" data-bs-toggle="modal"
+                                                data-bs-target="#infoModal3"
+                                                style="bottom: 30px; right: 40px; border-radius: 50%;">
+                                                <i class="bi bi-info-lg"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-5 col-md-5 text-center position-relative">
+                                            <img src="Assets/Imgs/e-secos.avif" class="d-block w-100 rounded-4"
+                                                style="height: 300px; object-fit: cover;" alt="Imagen 4">
+                                            <a href="#" class="btn btn-light position-absolute" data-bs-toggle="modal"
+                                                data-bs-target="#infoModal4"
+                                                style="bottom: 30px; right: 40px; border-radius: 50%;">
+                                                <i class="bi bi-info-lg"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Grupo 3: dos imágenes -->
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-5 col-md-5 text-center position-relative">
+                                            <img src="Assets/Imgs/des-humedos.webp" class="d-block w-100 rounded-4"
+                                                style="height: 300px; object-fit: cover;" alt="Imagen 5">
+                                            <a href="#" class="btn btn-light position-absolute" data-bs-toggle="modal"
+                                                data-bs-target="#infoModal5"
+                                                style="bottom: 30px; right: 40px; border-radius: 50%;">
+                                                <i class="bi bi-info-lg"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-5 col-md-5 text-center position-relative">
+                                            <img src="Assets/Imgs/guantes.webp" class="d-block w-100 rounded-4"
+                                                style="height: 300px; object-fit: cover;" alt="Imagen 6">
+                                            <a href="#" class="btn btn-light position-absolute" data-bs-toggle="modal"
+                                                data-bs-target="#infoModal6"
+                                                style="bottom: 30px; right: 40px; border-radius: 50%;">
+                                                <i class="bi bi-info-lg"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 1 -->
+        <div class="modal fade" id="infoModal1" tabindex="-1" aria-labelledby="infoModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel1">Contenedor para el compostaje</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aquí va la información detallada sobre la herramienta seleccionada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="infoModal2" tabindex="-1" aria-labelledby="infoModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel2">Tierra para el sustrato</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aquí va la información detallada sobre la herramienta seleccionada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="infoModal3" tabindex="-1" aria-labelledby="infoModalLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel3">Herramientas básicas de jardinería</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aquí va la información detallada sobre la herramienta seleccionada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="modal fade" id="infoModal4" tabindex="-1" aria-labelledby="infoModalLabel4" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel4">Desechos secos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aquí va la información detallada sobre la herramienta seleccionada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 5 -->
+        <div class="modal fade" id="infoModal5" tabindex="-1" aria-labelledby="infoModalLabel5" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel5">Desechos húmedos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aquí va la información detallada sobre la herramienta seleccionada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 6 -->
+        <div class="modal fade" id="infoModal6" tabindex="-1" aria-labelledby="infoModalLabel6" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel6">Guantes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aquí va la información detallada sobre la herramienta seleccionada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- TUTORIALES -->
+    <div class="col-10 col-md-9 container d-flex justify-content-center my-5"
+        style="background-color: #c6e23877; padding: 10px; border-radius: 20px;">
+        <div class="mb-1 rounded-4" style="background-color: #ffffff; height: 100%; color: #475034;">
+            <div class="row g-0 h-100 flex-wrap f-textos"> <!-- Flex-wrap para adaptarse en pantallas pequeñas -->
+
+                <div class="col-12 col-md-6">
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/s5OikC2LF4A?si=4vHltdn_9MbHwwgR" class="rounded-start-4"
+                        title="YouTube video player" rounded-start frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-12 col-md-6 d-flex flex-column">
+                    <div class="card-body flex-grow-1 p-3 p-md-5">
+                        <h2 class="card-title pb-1 f-titulos">¡Aprende a Compostar desde cero en Casa!</h2>
+                        <h6 class="card-text f-secun pb-3">Perfectos para toda la familia y diseñados para ser
+                            divertidos y educativos.</h6>
+
+                        <p>En nuestra sección de tutoriales, encontrarás videos prácticos que te guiarán a través del
+                            proceso de compostaje, desde la selección de los materiales adecuados hasta el
+                            mantenimiento de tu compostera.
+
+                        <p class="pb-3">¡No te lo pierdas!</p>
+                        <a href="#" class="btn f-secun px-3 px-md-5 rounded-pill b-1">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACTIVIDADES -->
+    <div class="container" id="actividades">
+        <div class="class rounded-4" style="color: #475034">
+
+            <div class="col-11 col-md-12 mb-3" style="margin-left: 8%;">
+                <h2 class=" f-titulos">Últimas actividades cargadas</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 pb-3">
+                    <div class="btn-group w-100 py-2" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn rounded-start-5 b-0">Nivel fácil</button>
+                        <button type="button" class="btn b-0">Nivel intermedio</button>
+                        <button type="button" class="btn b-0">Nivel difícil</button>
+                        <button type="button" class="btn rounded-end-5 b-0">Ver todas</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-5 my-1 ">
+                    <div class="card rounded-4 border-0" style="color: #475034; background-color: #eed18930;">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="Assets/Imgs/niños-actividad.jpg"
+                                    class="rounded-start-4 img-fluid rounded-start" alt="..."
+                                    style="height: 100%; width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title f-secun">Crea tu mini compostera</h5>
+                                    <p class="card-text f-textos"><small>Los participantes aprenden a
+                                            hacer una pequeña compostera usando una botella plástica reciclada o un
+                                            balde. Se
+                                            explica qué residuos orgánicos pueden compostar y cómo deben cuidar su
+                                            compostera
+                                            para que funcione bien.</p></small>
+                                    <a href="#" class="btn rounded-pill px-4 b-1">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 my-1">
+                    <div class="card rounded-4 border-0" style="color: #475034; background-color: #eed18930;">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="Assets/Imgs/niños-actividad.jpg"
+                                    class="rounded-start-4 img-fluid rounded-start" alt="..."
+                                    style="height: 100%; width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title f-secun">Caza de ingredientes</h5>
+                                    <p class="card-text f-textos"><small>Crea una búsqueda en casa o jardín para
+                                            encontrar elementos puedan agregarse al compost, restos de
+                                            verduras, hojas secas, etc. Al final, discute cuáles son los materiales
+                                            "verdes" y "marrones" necesarios para un buen compost.</p></small>
+                                    <a href="#" class="btn rounded-pill px-4 b-1">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="col-12 col-md-5 my-1"> <!-- Ajusté my-3 a my-1 -->
+                    <div class="card rounded-4 border-0" style="color: #475034; background-color: #eed18930;">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="Assets/Imgs/niños-actividad.jpg"
+                                    class="rounded-start-4 img-fluid rounded-start" alt="..."
+                                    style="height: 100%; width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title f-secun">Plantando con compost</h5>
+                                    <p class="card-text f-textos"><small>Después de tener compost listo, los
+                                            participantes usan ese abono para plantar semillas de hortalizas o flores en
+                                            pequeñas macetas.
+                                            Durante la actividad, se explica cómo el compost nutre las plantas y mejora
+                                            la
+                                            calidad del suelo.</p></small>
+                                    <a href="#" class="btn rounded-pill px-4 b-1">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 4 -->
+                <div class="col-12 col-md-5 my-1"> <!-- Ajusté my-3 a my-1 -->
+                    <div class="card rounded-4 border-0" style="color: #475034; background-color: #eed18930;">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="Assets/Imgs/niños-actividad.jpg"
+                                    class="rounded-start-4 img-fluid rounded-start" alt="..."
+                                    style="height: 100%; width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title f-secun">El reloj del compost</h5>
+                                    <p class="card-text f-textos"><small>Los participantes crean un "reloj" del compost,
+                                            donde hacen un calendario para seguir el progreso de su compostera. Cada
+                                            semana, anotan los
+                                            cambios que ven (olor, aspecto, temperatura) y dibujan cómo creen que se ve
+                                            su compost.</p></small>
+                                    <a href="#" class="btn rounded-pill px-4 b-1">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PREGUNTAS -->
+    <div class="container col-10 col-md-9 d-flex justify-content-center my-5"
+        style="background-color: #c6e23877; padding: 10px; border-radius: 20px; color: #475034;">
+        <div class="rounded-4 d-flex justify-content-center align-items-start mb-1"
+            style="background-color: #ffffff; width: 100%; padding: 30px;">
+            <div class="container d-flex flex-column" style="height: auto;">
+                <div class="row w-100">
+
+                    <!-- Pantalla completa -->
+                    <div
+                        class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center mb-3 mb-md-0 d-none d-lg-block d-md-block">
+                        <h2 class="ms-3 f-titulos">Consejos claves: compostaje en casa</h2>
+
+                        <div id="list-example" class="list-group mt-3 d-none d-lg-block">
+                            <small><a class="list-group-item list-group-item-action f-secun" href="#list-item-1">1.
+                                    Equilibrio entre materiales húmedos y secos</a></small>
+                            <small><a class="list-group-item list-group-item-action f-secun" href="#list-item-2">2.
+                                    Voltear regularmente</a></small>
+                            <small><a class="list-group-item list-group-item-action f-secun" href="#list-item-3">3.
+                                    Mantén la humedad adecuada</a></small>
+                            <small><a class="list-group-item list-group-item-action f-secun" href="#list-item-4">4.
+                                    Tamaño de los desechos</a></small>
+                            <small><a class="list-group-item list-group-item-action f-secun" href="#list-item-5">5.
+                                    Paciencia es clave</a></small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7 d-flex justify-content-center d-none d-lg-block d-md-block f-textos">
+                        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                            class="scrollspy-example" tabindex="0" style="height: 300px; overflow-y: auto;">
+                            <h4 id="list-item-1">1. Equilibrio entre materiales húmedos y secos</h4>
+                            <p>Para comenzar tu proyecto de compostaje, es crucial mantener un equilibrio entre los
+                                residuos orgánicos húmedos, como restos de frutas y verduras, y los materiales secos
+                                como cartón y hojas secas. Esta mezcla ayuda a mantener la relación adecuada de carbono
+                                y nitrógeno, evitando así los malos olores.</p>
+
+                            <h4 id="list-item-2">2. Voltear regularmente</h4>
+                            <p>Una de las claves sobre cómo hacer compost en casa es voltear tu compostera al menos una
+                                vez a la semana. Este proceso ayuda a airear los residuos y asegura una degradación
+                                adecuada de los mismos, facilitando así la creación de tierra compost rica en
+                                nutrientes.</p>
+
+                            <h4 id="list-item-3">3. Mantén la humedad adecuada</h4>
+                            <p>El agua es esencial en el proceso de compostaje. Riega tu compostera cada una o dos
+                                semanas para mantener la vida microbiana activa y saludable. Una buena humedad es
+                                crucial para cómo se hace compost en casa.</p>
+
+                            <h4 id="list-item-4">4. Tamaño de los desechos</h4>
+                            <p>Cortar tus desechos en pedazos pequeños es un tip valioso sobre cómo preparar compost de
+                                forma más eficiente. Al reducir el tamaño de los materiales, aceleras su proceso de
+                                descomposición.</p>
+
+                            <h4 id="list-item-5">5. Paciencia es clave</h4>
+                            <p>Finalmente, recuerda que el compostaje es un proceso que lleva tiempo. La paciencia es
+                                vital. No te desesperes si no ves resultados inmediatos. Con el tiempo, tu compost se
+                                transformará en un abono rico y nutritivo para tu jardín.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pantalla reducida -->
+                    <div
+                        class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center mb-3 mb-md-0 d-sm-none">
+                        <h2 class="titulo">Consejos claves para el compostaje en casa</h2>
+
+                        <div id="list-example" class="list-group mt-3 d-none">
+                            <a class="list-group-item list-group-item-action" href="#list-item-1">1. Equilibrio entre
+                                materiales húmedos y secos</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-2">2. Voltear
+                                regularmente</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-3">3. Mantén la humedad
+                                adecuada</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-4">4. Tamaño de los
+                                desechos</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-5">5. Paciencia es
+                                clave</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7 d-flex justify-content-center d-sm-none">
+                        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                            class="scrollspy-example" tabindex="0" style="height: 300px; overflow-y: auto;">
+                            <h4 id="list-item-1">1. Equilibrio entre materiales húmedos y secos</h4>
+                            <p>Para comenzar tu proyecto de compostaje, es crucial mantener un equilibrio entre los
+                                residuos orgánicos húmedos, como restos de frutas y verduras, y los materiales secos
+                                como cartón y hojas secas. Esta mezcla ayuda a mantener la relación adecuada de carbono
+                                y nitrógeno, evitando así los malos olores.</p>
+
+                            <h4 id="list-item-2">2. Voltear regularmente</h4>
+                            <p>Una de las claves sobre cómo hacer compost en casa es voltear tu compostera al menos una
+                                vez a la semana. Este proceso ayuda a airear los residuos y asegura una degradación
+                                adecuada de los mismos, facilitando así la creación de tierra compost rica en
+                                nutrientes.</p>
+
+                            <h4 id="list-item-3">3. Mantén la humedad adecuada</h4>
+                            <p>El agua es esencial en el proceso de compostaje. Riega tu compostera cada una o dos
+                                semanas para mantener la vida microbiana activa y saludable. Una buena humedad es
+                                crucial para cómo se hace compost en casa.</p>
+
+                            <h4 id="list-item-4">4. Tamaño de los desechos</h4>
+                            <p>Cortar tus desechos en pedazos pequeños es un tip valioso sobre cómo preparar compost de
+                                forma más eficiente. Al reducir el tamaño de los materiales, aceleras su proceso de
+                                descomposición.</p>
+
+                            <h4 id="list-item-5">5. Paciencia es clave</h4>
+                            <p>Finalmente, recuerda que el compostaje es un proceso que lleva tiempo. La paciencia es
+                                vital. No te desesperes si no ves resultados inmediatos. Con el tiempo, tu compost se
+                                transformará en un abono rico y nutritivo para tu jardín.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RECORDATORIO -->
+    <div class="container">
+        <div class="row justify-content-center py-4">
+            <div class="col-10 text-center">
+                <img src="Assets/Imgs/mensaje.jpg" class="img-fluid rounded-4" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <!-- OPINIONES -->
+    <div class="container">
+        <div class="row my-5" style="color: #475034;">
+
+            <div class="col-10 col-md-9 mx-auto mb-3">
+                <h2 class="f-titulos">Únete a nuestra comunidad</h2>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 col-12 col-md-9 mx-auto f-textos">
+                <div class="col mb-3">
+                    <div class="card h-100 rounded-4 border-0">
+                        <img src="Assets/Imgs/op-1.jpg" class="card-img-top img-fluid rounded-top-4 alt=" ..."
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body" style="color: #475034;">
+                            <h5 class="card-title f-secun">Logré hacer mi primera compostera</h5>
+                            <small>
+                                <p class="card-text">¡Hoy terminé mi primera compostera! Gracias a los consejos de esta
+                                    página fue más fácil de lo que esperaba. Ahora convierto mis restos de comida en
+                                    abono para el jardín. ¡Cuidar el planeta es increíble!</p>
+                            </small>
+                        </div>
+
+                        <div class="card-footer rounded-bottom-4" style="background-color: #eed18930;">
+                            <small class="text-body-secondary">Compartido hace 3 meses</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-3">
+                    <div class="card h-100 rounded-4 border-0">
+                        <img src="Assets/Imgs/op-3.webp" class="card-img-top img-fluid  rounded-top-4" alt="..."
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body" style="color: #475034;">
+                            <h5 class="card-title f-secun">Muchas gracias compost en casa</h5>
+                            <small>
+                                <p class="card-text">Empecé a hacer compost en casa y no podría estar más agradecido.
+                                    Esta
+                                    comunidad me enseñó lo simple que es y cómo puedo ayudar al medio ambiente. ¡Mis
+                                    plantas y el planeta lo agradecen!</p>
+                            </small>
+                        </div>
+                        <div class="card-footer rounded-bottom-4" style="background-color: #eed18930;">
+                            <small class="text-body-secondary">Compartido hace 12 horas</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-3">
+                    <div class="card h-100 rounded-4 border-0">
+                        <img src="Assets/Imgs/op-2.jpg" class="card-img-top img-fluid  rounded-top-4" alt="..."
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body" style="color: #475034;">
+                            <h5 class="card-title f-secun">Por fín... siempre quise una de estas :¨)</h5>
+                            <small>
+                                <p class="card-text">¡Finalmente tengo mi compostera! Hace tiempo quería una y, gracias
+                                    a los consejos de esta página, lo logré. ¡Es genial ver cómo mis desechos se
+                                    convierten en abono!</p>
+                            </small>
+                        </div>
+                        <div class="card-footer rounded-bottom-4" style="background-color: #eed18930;">
+                            <small class="text-body-secondary">Compartido hace un día</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón alineado al lado izquierdo debajo de la primera tarjeta -->
+            <div class="col-12 col-md-9 mx-auto mt-3">
+                <a href="#" class="btn rounded-pill px-5 b-1 ms-3">Crear mi cuenta</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid" id="footer">
+        <div class="p-5 row f-textos" style="background-color: #c6e23877; color: #475034;">
+            <div class="col-12 col-md-6 d-flex flex-column"> <!-- Logotipo -->
+                <a class="navbar-brand fw-bolder fs-5 pb-4" href="#" style="color: #475034;">Compost en casa</a>
+                <small>
+                    <p>
+                        <a href="#" class="text-decoration-none f-links pt-5" style="color: #475034;">Unirme a la
+                            comunidad</a>
+                </small></p>
+
+                <div class="d-flex gap-2 mb-4"> <!-- Rrss -->
+                    <a href="#" class="rounded-circle p-2 text-decoration-none" aria-label="Facebook"
+                        style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #475034;">
+                        <i class="fab fa-facebook-f text-white" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="#" class="rounded-circle p-2 text-decoration-none" aria-label="Twitter"
+                        style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #475034;">
+                        <i class="fab fa-twitter text-white" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="#" class="rounded-circle p-2 text-decoration-none" aria-label="Instagram"
+                        style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #475034;">
+                        <i class="fab fa-instagram text-white" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="#" class="rounded-circle p-2 text-decoration-none" aria-label="Youtube"
+                        style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: #475034;">
+                        <i class="fab fa-youtube text-white" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-md-end">
+                <div class="d-flex gap-5"> <!-- Contenedor de los links -->
+                    <ul class="list-unstyled" style="color: #475034;">
+                        <h4 class="f-titulos">Contacto</h4>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Formulario de
+                                    contacto</a></small></li>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Servicio al
+                                    cliente</a></small></li>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Correo
+                                    electrónico</a></small></li>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <h4 class="f-titulos">Menú</h4>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Nosotros</a></small></li>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Actividades</a></small>
+                        </li>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Tutoriales</a></small>
+                        </li>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Blog</a></small></li>
+                    </ul>
+
+                    <ul class="list-unstyled">
+                        <h4 class="f-titulos">Legal</h4>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Términos legales y
+                                    privacidad</a></small></li>
+                        <li><small><a href="#" class="text-decoration-none text-muted f-links">Condiciones
+                                    generales</a></small></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
